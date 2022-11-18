@@ -21,14 +21,20 @@
 
 
 
-v = """
-🤑🤑🤑
-Calculadora para sumar
-😱😱😱
-"""
-print(v)
+# v = """
+# 🤑🤑🤑
+# Calculadora para sumar
+# 😱😱😱
+# """
+# print(v)
 
-n1 = input("introduzca un numero: ")
-n2 = input("introduzca un numero: ")
+# n1 = input("introduzca un numero: ")
+# n2 = input("introduzca un numero: ")
 
-print("el resultado es: ", n1+n2, "  🥵🥵🥵")
+# print("el resultado es: ", n1+n2, "  🥵🥵🥵")
+
+
+
+t = {1, 2, 5, 3, 60, 8}
+
+
