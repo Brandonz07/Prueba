@@ -20,7 +20,7 @@ def song(lista):
         cancion = input("introduzca una cancion: ")
         genero = input("introduzca el genero: ")
         duracion = input("introduzca la duracion: ")
-        lista[artista]["cancion"]=cancion
+        lista.update({artista:(cancion,"genero",genero, "duracion",duracion)})
         
 def delate(lista):
     artista = input ("introduzca el artista: ")

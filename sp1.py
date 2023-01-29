@@ -1,10 +1,6 @@
-def crear_artista(play, arti, gene, canc, dura):
-    play.update ({
-        arti:{
-            "genero":gene,
-            "canciones":{canc:dura}
-        }
-    })
-    return play
+nums = [1, 2, 3]
+vals = nums
+del vals[:]
 
-crear_artista(1)
+print(vals)
+print(nums)

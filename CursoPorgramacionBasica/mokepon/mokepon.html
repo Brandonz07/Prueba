@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MOKEPON</title>
+        <script src="./js/mokepon.js"></script>
+    </head>
+    <body>
+        <h1>MOKEPON! 💧🔥🌿</h1>
+
+        <section id='select-pet'>
+            <h2>choose your pet:</h2>
+
+            <label for="hipodoge">hipodoge</label>
+            <input type="radio" name="pet" id="hipodoge"/>
+
+            <label for="capipepo">capipepo</label>
+            <input type="radio" name="pet" id="capipepo"/>
+
+            <label for="ratigueya">ratigueya</label>
+            <input type="radio" name="pet" id="ratigueya"/>
+
+            <button id="button-pets">Select</button>
+        </section>
+
+        <section id='select-attack'>
+            <h2>choose your attack:</h2>
+
+            <p>Your pet <span id='pet-player'></span> has <span>3</span> lives</p>
+            <p>the enemy's pet <span id="pet-enemy"></span> has <span>3</span> lives</p>
+            
+            <p>
+                <button id="button-fire">Fire🔥</button>
+                <button id="button-water">Water💧</button>
+                <button id="button-land">Land🌿</button>
+            </p>
+        </section>
+
+        <section id="messanges">
+        </section>
+
+        <section id="restart">
+            <button id="button-restart">Restart</button>
+        </section>
+
+    </body>
+</html>
